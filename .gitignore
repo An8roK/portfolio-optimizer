@@ -1,0 +1,22 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python & notebooks
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node & build artifacts
+node_modules/
+dist/
+build/
+*.log
